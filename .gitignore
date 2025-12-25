@@ -1,0 +1,81 @@
+# Global ignore rules for Node.js (both frontend and backend)
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# dotenv environment files
+.env
+.env.dev
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Optional npm cache directory
+.npm/
+
+# Coverage directory for testing
+coverage/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Mac system files
+*.DS_Store
+
+# Optional lockfiles (if you're using both npm and yarn or pnpm)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Optional: ignore compiled typescript files (if using TypeScript)
+*.tsbuildinfo
+
+# Optional: ignore Next.js build output
+.next/
+
+# Optional: ignore Storybook build
+storybook-static/
+
+# Optional: ignore parcel cache
+.cache/
+
+# Optional: ignore Jest coverage
+coverage/
+
+# Optional: ignore SvelteKit build
+.svelte-kit/
+
+# Optional: ignore vite build
+.vite/
+
+# Optional: ignore Cypress test results
+cypress/videos/
+cypress/screenshots/
+
+# Optional: ignore playwright output
+test-results/
+
+# Optional: ignore Expo managed project files (if using React Native)
+.expo/
